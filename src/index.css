@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+  font-family: "Poppins", serif;
+  
+  font-style: normal;
+}
+#inputt{
+  background-image: url("https://img.freepik.com/premium-vector/flat-city-street-landscape-with-skyscraper-apartment-building-town-real-estate-houses-road-cityscape-scene-urban-vector-panorama_102902-4340.jpg?w=2000");
+  object-fit: contain;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+#landing{
+  background-image:url("https://static.vecteezy.com/system/resources/previews/002/136/424/non_2x/stacked-city-building-cityscape-skyline-business-illustration-vector.jpg");
+  height:750px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width:100%;
+  
+}
+.blinking {
+   animation: blinking 2s infinite;
+ } 
+@keyframes blinking { 0% { background-color: rgba(23, 118, 176, 0.5); } 50% { background-color: rgba(255, 255, 255, 0.5); } 100% { background-color: rgba(29, 142, 212, 0.5); } }
+
+/* Light Mode */ 
+.light-mode { 
+  background-color: white; 
+  color: black;
+ } 
+
+/* Dark Mode */
+ .dark-mode { 
+  background-color: black; 
+  color: white;
+ }
