@@ -41,7 +41,7 @@ function App() {
       <Route path='/broker/register' element={<AuthBroker register/>}/>
       <Route path='/broker/save' element={<BrDashboard/>}/>
       
-      <Route path='/contactus' element={<ContactUs/>}/>
+      
       <Route path='/reportaproblem' element={<ReprtaPrblm/>}/>
   
       <Route path='/aboutus' element={<Aboutus/>}/>

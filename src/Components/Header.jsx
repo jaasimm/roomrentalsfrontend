@@ -29,7 +29,7 @@ function Header({ blinking,toggleDarkMode }) {
                 <NavDropdown.Item href="#action5">Admin</NavDropdown.Item>
               </NavDropdown>
               <NavDropdown title="More" id="navbarScrollingDropdown">
-                <NavDropdown.Item href="/contactus">Contact Us</NavDropdown.Item>
+                <NavDropdown.Item href="">Contact Us</NavDropdown.Item>
                 <NavDropdown.Item href="/aboutus">About Us</NavDropdown.Item>
                 <NavDropdown.Item href="#action4">Chat</NavDropdown.Item>
                 <NavDropdown.Divider />
